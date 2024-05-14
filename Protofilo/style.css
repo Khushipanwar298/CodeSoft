@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+   
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    display: grid;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 45px;
+    border: 2px solid rgb(198, 135, 18);
+}
+
+.skills, .projects, .resume, .contact {
+    margin-top: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+.imgw{
+    margin-left: 60px;
+    display: block;
+    justify-content: center;
+    height: 120px;
+}
+
+.hh{
+    display: flex;
+    justify-content: center;
+}
